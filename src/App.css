@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 65px;
+}
+
+.actions-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.login-btn-container {
+  font-size: 15px;
+  color: white;
+  background-color: #d01c28;
+  padding: 6px 24px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding: 0 178px;
+  height: calc(100vh - 72px);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+
+p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #5A5959;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.buttons-container div {
+  padding: 6px 16px;
+  background-color: #d01c28;
+  color: white;
+  text-transform: capitalize;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons-container div:last-child {
+  background-color: transparent;
+  color: #5A5959;
+  border: 2px solid #5A5959;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.partners img {
+  width: auto;
+  height: 100%;
+}
